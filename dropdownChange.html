@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<h4>Change dropdwonList</h4>
+<h5>new bank account</h5>
+<select id="drp1">
+    <option value="0">select account</option>
+    <option value="1">Saving Account</option>
+    <option value="2">Current account</option>
+    <option value="3">Loan account</option>
+</select><br/><br/>
+Minimum balance: <input type="text" id="txt1" readonly="readonly">
+
+<script>
+document.getElementById("drp1").addEventListener("change",sample);
+
+function sample(){
+    var s = document.getElementById("drp1").value;
+    if (s==1){
+        document.getElementById("txt1").value = "5000";
+    }
+    else if (s==2){
+        document.getElementById("txt1").value = "10000";
+    }
+    else if (s==3) {
+        document.getElementById("txt1").value = "20000";
+    }
+    else {
+        document.getElementById("txt1").value = "";
+    }
+
+}
+
+</script>
+</body>
+</html>
