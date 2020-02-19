@@ -1,0 +1,162 @@
+#container {
+    width:1050px;
+    border:none;
+    margin:0 auto;
+    
+    
+}
+#header{
+    overflow: auto;
+}
+h1>a {
+    font-size: 50px;
+    font-weight: 100;
+    color:#b347b3;
+    text-decoration: none;
+}
+
+#brand{
+    float: left;
+}
+#searchBox{
+    float: right;
+    background:linear-gradient(#E4F2B9,#B7E953);
+    width: 400px;
+    height: 50px;
+    padding:15px 10px 0px 10px ;
+    margin-top: 20px;
+   
+}
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color:#E36A0C;
+    background: white url(searchlogo.png) right center no-repeat;
+    
+}
+.submit{
+    float: right;
+    font-weight: bold;
+    color: white;
+    background: #A751D6;
+    font-size: 15px;
+    margin-top: 5px;
+}
+#menu{
+    height: 70px;
+    background:linear-gradient(#F8F594,#D5D533);
+
+
+}
+#menu ul li{
+    float: left;
+    padding:0px 30px ;
+    border-right: 1px solid #A751D6;
+}
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color:#A751D6 ;
+}
+#menu ul li a{
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #A751D6;
+    -webkit-transition: font-size 0.3s ease;/*for safari browser*/
+    -moz-transition: font-size 0.3s ease;/*for firefox browser*/
+    -o-transition: font-size 0.3s ease;/*for opera browser*/
+    -ms-transition: font-size 0.3s ease;/*for internet explorer browser*/
+    transition: font-size 0.3s ease;/*for chrome browser*/
+}
+#menu ul li:last-child{
+    border-right: none;
+}
+ul{
+    list-style: none;
+    padding: 20px 15px 0px 20px;
+}
+
+#introduction{
+    background:linear-gradient(#E4F2B9,#B7E953);
+    padding: 30px;
+    margin:16px 0;
+}
+
+#introduction h1{
+    font-size:45px;
+    font-weight: normal;
+    color: #628F19;
+}
+
+#introduction  p{
+    text-align: justify;
+    font-size:25px;
+}
+
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border-radius: 20px;
+    border:1px solid #BAFF;
+    padding: 10px 30px;
+    -webkit-transition: font-size 0.3s ease;/*for safari browser*/
+    -moz-transition: font-size 0.3s ease;/*for firefox browser*/
+    -o-transition: font-size 0.3s ease;/*for opera browser*/
+    -ms-transition: font-size 0.3s ease;/*for internet explorer browser*/
+    transition: font-size 0.3s ease;/*for chrome browser*/
+    
+}
+
+.sidebar h3{
+    font-size: 30px;
+    color:#B314DB;
+}
+.sidebar ul li a:hover{
+    
+    font-size: 21px;
+    color:#A751D6 ;
+    font-weight: bold;
+    
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+
+
+#lefsidebar{
+    float: left;
+   
+}
+
+#lefsidebar li{
+    padding-bottom: 5px;
+    padding-left: 5px;
+    list-style: url("arrow.png");
+}
+
+#rightsidebar{
+    float: right;
+}
+
+#rightsidebar li{
+    padding-bottom: 30px;
+    list-style: url("check.png");
+}
+
+.footer{
+    height: 50px;
+    padding: 10px 30px;
+    background:linear-gradient(#F6F390, #D5D533);
+    margin-top:15px;
+    clear: both;
+
+}
+
+
